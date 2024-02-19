@@ -1,6 +1,6 @@
 import React from "react";
 
-const ABTestImage = () => {
+export default function ABTestImage(){
   return (
     <section>
       <img
@@ -19,4 +19,4 @@ const ABTestImage = () => {
   );
 };
 
-export default ABTestImage;
+
