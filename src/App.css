@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.static {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+header {
+  margin-top: 3rem;
+}
+
+.ctaBtn {
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.ctaBtn:hover{
+  background-color: rgb(198, 198, 198);
+}
+
+.dynamic{
+  margin-bottom: 1.5rem;
+}
